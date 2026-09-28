@@ -1,2 +1,5 @@
-package com.example.cinetubdesktop;public class filmes {
+package com.example.cinetubdesktop;
+
+public class filmes {
+    private String nomeFilme;
 }
