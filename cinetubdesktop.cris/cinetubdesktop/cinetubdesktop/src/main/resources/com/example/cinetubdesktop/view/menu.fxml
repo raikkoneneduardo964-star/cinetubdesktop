@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <!-- Inclui o Navbar atualizado -->
+        <fx:include source="Navbar.fxml" />
+
+        <!-- Conteúdo principal do Menu -->
+        <AnchorPane VBox.vgrow="ALWAYS">
+            <children>
+                <Label alignment="CENTER" layoutX="100.0" layoutY="39.0" prefHeight="40.0" prefWidth="400.0" text="Bem-vindo ao CineTub Desktop">
+                    <font>
+                        <Font name="System Bold" size="24.0" />
+                    </font>
+                </Label>
+            <ImageView fitHeight="165.0" fitWidth="311.0" layoutX="145.0" layoutY="93.0">
+               <image>
+                  <Image url="@../../../../../../../../../../../Gemini_Generated_Image_plbdyxplbdyxplbd.jpg" />
+               </image>
+            </ImageView>
+            </children>
+        </AnchorPane>
+    </children>
+</VBox>

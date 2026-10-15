@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<HBox alignment="CENTER" prefHeight="91.0" prefWidth="740.0" spacing="20.0" style="-fx-background-color: #2c3e50; -fx-padding: 10px;" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.cinetubdesktop.controller.ControllerNavbar">
+    <children>
+        <Button mnemonicParsing="false" onAction="#irParaInicio" prefHeight="30.0" prefWidth="100.0" style="-fx-background-color: #34495e; -fx-text-fill: white; -fx-cursor: hand;" text="Início">
+            <font>
+                <Font name="System Bold" size="13.0" />
+            </font>
+        </Button>
+
+        <Button mnemonicParsing="false" onAction="#irParaFuncionario" prefHeight="30.0" prefWidth="140.0" style="-fx-background-color: #34495e; -fx-text-fill: white; -fx-cursor: hand;" text="Funcionarios">
+            <font>
+                <Font name="System Bold" size="13.0" />
+            </font>
+        </Button>
+
+        <Button mnemonicParsing="false" onAction="#irParaSessoes" prefHeight="30.0" prefWidth="140.0" style="-fx-background-color: #34495e; -fx-text-fill: white; -fx-cursor: hand;" text="Sessões">
+            <font>
+                <Font name="System Bold" size="13.0" />
+            </font>
+        </Button>
+      <Button mnemonicParsing="false" onAction="#irParaSala" prefHeight="30.0" prefWidth="140.0" style="-fx-background-color: #34495e; -fx-text-fill: white; -fx-cursor: hand;" text="Sala">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button mnemonicParsing="false" onAction="#irParaSalaCadastro" prefHeight="30.0" prefWidth="140.0" style="-fx-background-color: #34495e; -fx-text-fill: white; -fx-cursor: hand;" text="Sala Cad">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+    </children>
+</HBox>
